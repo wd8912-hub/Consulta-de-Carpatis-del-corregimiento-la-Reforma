@@ -16,11 +16,11 @@ Permite seleccionar el tipo de usuario:
 
 Incluye:
 
-- Mapa estático de recorrido
+- Mapa estatico de recorrido.
 - Marcador simulando la ubicación del Carpatis
 - Barra de búsqueda
 - Botón de notificaciones
-- Ruta estimada resaltada
+- Ruta estimada
 
         Pantalla de Notificaciones
 
@@ -46,3 +46,21 @@ Incluye:
 - Selección de idioma (no funcional)
 - Información de permisos (simulado)
 - Sección de ayuda
+
+        Estructura
+  El prototipo sigue la siguiente estructura
+  
+          Pantalla Inicial
+           ├── Usuario
+           │     ├── Mapa
+           │     │      ├── Notificaciones
+           │     │      └── Configuración
+           │     └── (Retornos hacia Mapa)
+           └── Conductor
+                 ├── Panel del Conductor
+                 │      ├── Iniciar Recorrido (cambia estado)
+                 │      ├── Finalizar Recorrido (cambia estado)
+                 │      ├── Notificaciones
+                 │      └── Configuración
+                 └── (Retornos hacia Panel)
+  
