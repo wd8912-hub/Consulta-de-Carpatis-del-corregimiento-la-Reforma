@@ -72,4 +72,16 @@ Incluye:
                  │      ├── Notificaciones
                  │      └── Configuración
                  └── (Retornos hacia Panel)
-  
+ # Naturaleza No Funcional ⚠️
+ 
+         El prototipo no:
+
+- Procesa datos reales.
+- Se conecta a un sistema backend o GPS.
+- Representa software operativo.
+- Está listo para implementarse como producto.
+- Toda interacción es simulada de acuerdo con el diseño previsto en Figma.
+    # Contacto 📬
+- Autor: Wilfer Meneses
+- Correo académico: wdmeneseso@unadvirtual.edu.co
+- Correo Figma: w.d8912@gmail.com
