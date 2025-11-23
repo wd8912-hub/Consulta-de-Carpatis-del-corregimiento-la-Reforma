@@ -80,7 +80,7 @@ Incluye:
 - Se conecta a un sistema backend o GPS.
 - Representa software operativo.
 - Está listo para implementarse como producto.
-- Toda interacción es simulada de acuerdo con el diseño previsto en Figma.
+- Toda interacción es simulada de acuerdo con el diseño previsto en Ninjamock.
     # Contacto 📬
 - Autor: Wilfer Meneses
 - Correo académico: wdmeneseso@unadvirtual.edu.co
